@@ -1,0 +1,16 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.header-container {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
