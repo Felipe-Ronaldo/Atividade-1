@@ -1,7 +1,12 @@
 body {
+
     padding: 0px;
     margin: 0px;
-    background-color: rgb(255, 255, 255);
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -10,7 +15,16 @@ h1 {
 }
 
 .header-container {
-    background-color: black;
+    background: linear-gradient(to right, #ff0a0a, #362727);
     padding: 10px;
     text-align: center;
+}
+
+.destaque-container {
+    background: linear-gradient(to right, #7a2020f3,  #ffffffb2);
+    text-align: center;
+    border-radius: 20px;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
 }
